@@ -1,0 +1,19 @@
+[package]
+name = "gmm_based_image_segmentation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clustering = { version = "0.2.1", features = ["parallel"] }
+image = { version = "0.25.5"}
+imageproc = "0.25.0"
+nalgebra = "0.33.2"
+ndarray = "0.16.1"
+ndarray-linalg = "0.16.0"
+ndarray-rand = "0.15.0"
+ndarray-stats = "0.6.0"
+num-traits = "0.2.19"
+rand = "0.8.5"
+rand_xoshiro = "0.6.0"
+rayon = "1.10.0"
+statrs = "0.17.1"
